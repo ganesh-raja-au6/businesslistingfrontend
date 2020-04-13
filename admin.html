@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jolly Party || Welcome</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome icon -->
+    <link href="fontawesome/css/fontawesome-all.css" rel="stylesheet" />
+    <!-- Fontello icon -->
+    <link href="fontello/css/fontello.css" rel="stylesheet" />
+    <!-- OwlCarosuel CSS -->
+    <link href="css/owl.carousel.css" type="text/css" rel="stylesheet" />
+    <link href="css/owl.theme.default.css" type="text/css" rel="stylesheet" />
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header header-transparent fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-2 col-lg-2 col-md-12 col-sm-12 col-12">
+                    <!-- header-logo -->
+                    <div class="header-logo">
+                        <a href="index.html" class="text-white h4"><span style='color : #433166'>Jolly Party</span></a>
+                    </div>
+                    <!-- /.header-logo -->
+                </div>
+                <div class="col-xl-4 col-lg-4 text-right col-md-2 col-sm-12 col-12 d-none d-xl-block d-lg-block">
+                    <!-- header-btn -->
+                    <div class="header-btn mr-5 mr-auto">
+                        <a class="btn btn-primary btn-sm mr-1 text-dark" onClick='adminlogin()'>Login</a>
+                        <a class="btn btn-primary btn-sm mr-5 text-dark" onClick='adminregister()'>Register</a>
+                        <!-- Button trigger modal -->
+                    </div>
+                    <!-- /.header-btn -->
+                </div>
+            </div>
+        </div>
+      </div>
+          <!-- social-media-section -->
+          <div class="social-media-block" style='position : fixed; bottom : 58px; width : 100%' >
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xl-7 col-lg-7 col-md-6 col-sm-6 col-12">
+                          <h3 class="text-white mb0 mt10">Would you like to connect with us</h3>
+                      </div>
+                      <div class="col-xl-5 col-lg-5 col-md-6 col-sm-6 col-12 text-right">
+                          <div class="social-icons">
+                              <a href="#" class="icon-square"><i class="fab fa-facebook-f"></i></a>
+                              <a href="#" class="icon-square"><i class="fab fa-twitter"></i> </a>
+                              <a href="#" class="icon-square"><i class="fab fa-google-plus-g"></i></a>
+                              <a href="#" class="icon-square"><i class="fab fa-instagram"></i></a>
+                              <a href="#" class="icon-square"><i class="fab fa-youtube"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- /.social-media-section -->
+          <!-- footer-section -->
+          <div class="footer py-3" style='position : fixed; bottom : 0; width : 100%' >
+              <div class="container text-center py-0">
+                  <p class="text-center">All rights reserved &reg; Jolly Party &copy; 2020</p>
+              </div>
+          </div>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/menumaker.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/custom-script.js"></script>
+    <script src="js/return-to-top.js"></script>
+    <script>
+      $(window).scroll(function () {
+        if ($(".header-transparent").offset().top > 200) {
+          $(".fixed-top").addClass("top-nav-collapse");
+        } else {
+          $(".fixed-top").removeClass("top-nav-collapse");
+        }
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.1/babel.min.js"></script>
+    <script type="text/javascript" src="js/admin.js"></script>
+    <script></script>
+  </body>
+</html>

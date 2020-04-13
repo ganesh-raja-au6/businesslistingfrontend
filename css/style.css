@@ -920,7 +920,7 @@ img.grayscale:hover { filter: grayscale(0); opacity: 1; transition-property: fil
 .real-wedding-img { }
 
 /*--- 9.8 real wedding single --- */
-.real-wedding-single-img { background: url(../images/real-weddings-single.jpg); background-size: cover; }
+.real-wedding-single-img { background: url(../images/real-weddings-single.jpg); background-size: cover; height : 512px; min-height : 512px}
 .realwed-caption { padding-top: 180px; padding-bottom: 180px; }
 .realwed-addressbar { background-color: rgba(55, 49, 61, .5); border-top: rgba(255, 255, 255, .1) 1px solid; padding: 6px 0px; font-size: 14px; color: #d2d2d2; }
 .real-wedding-img img { width: 100%; }
