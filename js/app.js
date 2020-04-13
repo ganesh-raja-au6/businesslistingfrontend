@@ -1,5 +1,5 @@
-// var url = "https://salty-castle-33988.herokuapp.com/";
-var url = "http://localhost:8000/";
+var url = "https://salty-castle-33988.herokuapp.com/";
+// var url = "http://localhost:8000/";
 // var frontendurl = "http://127.0.0.1:5500/";
 
 let check = async () => {

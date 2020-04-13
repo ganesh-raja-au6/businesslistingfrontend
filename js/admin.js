@@ -1,5 +1,5 @@
-let url = "https://salty-castle-33988.herokuapp.com/";
-// let url = "http://localhost:8000/";
+// let url = "https://salty-castle-33988.herokuapp.com/";
+let url = "http://localhost:8000/";
 let requestDashboard = async () => {
   const user = localStorage.getItem("user");
   // Requests
